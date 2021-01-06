@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background-color: lightgrey;
+
+  &--bee {
+    height: 53px;
+  }
+
+  &--menu {
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: grey;
+    padding: 5px 15px;
+  }
+}
