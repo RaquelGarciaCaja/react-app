@@ -1,0 +1,32 @@
+.students {
+  padding: 70px 0;
+  &--icon {
+    color: #ffc107;
+    font-size: 60px;
+  }
+  &--students {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    padding: 0 18.5px;
+  }
+  &--check {
+    text-transform: uppercase;
+  }
+  &--p {
+    text-transform: none;
+  }
+  &--span {
+    text-transform: capitalize;
+  }
+  &--bee {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px 20px;
+    padding: 15px 70px;
+    height: 60px;
+  }
+}
