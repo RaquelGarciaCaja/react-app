@@ -9,6 +9,8 @@ import Wilson from "./Wilson";
 import Bee from "./Bee";
 import Form from "./Form";
 import Competition from "./Competition";
+import Timeline from "./Timeline";
+
 import Footer from "./Footer";
 
 import "../stylesheets/App.scss";
@@ -30,6 +32,7 @@ const App = () => {
           <Students />
           <Wilson />
           <Competition />
+          <Timeline />
           <Footer />
         </Route>
       </Switch>

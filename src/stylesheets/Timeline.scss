@@ -1,0 +1,49 @@
+.timeline {
+  padding: 18px;
+  background-color: #4a4a4a;
+  &--title {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 18px;
+  }
+  &--list {
+    // padding-left: 20px;
+    // display: flex;
+    // justify-content: center;
+  }
+  &--line {
+    // width: 3px;
+    // margin-right: 10px;
+    // background-color: #f2f2f2;
+  }
+  &--icon {
+    color: #ffc107;
+  }
+  &--span {
+    text-transform: capitalize;
+  }
+  &--block {
+    background-color: #f2f2f2;
+    // display: flex;
+    // padding: 20px;
+  }
+  &--containerImg {
+  }
+  &--workig {
+  }
+  &--text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  &--subTitle {
+    border-bottom: 1px solid #4a4a4a;
+    padding: 5px;
+    font-size: 18px;
+  }
+  &--p {
+    padding: 20px 5px;
+    font-size: 17px;
+  }
+}
