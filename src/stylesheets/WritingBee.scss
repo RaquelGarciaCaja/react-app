@@ -26,13 +26,14 @@
     font-size: 50px;
     transform: rotate(270deg);
     position: absolute;
-    color: chocolate;
+    color: #f4bc08;
   }
   &--year {
     position: relative;
     bottom: -18px;
     font-size: 12px;
-    font-style: italic;
+    font-family: $font-cursive;
+    color: black;
   }
 
   &--writing {
@@ -42,7 +43,7 @@
     font-size: 43px;
     padding: 0 35px;
     text-align: center;
-    color: #ffffff;
+    color: #4a4a4a;
     -webkit-text-stroke: 1px #4a4a4a;
     text-shadow: 2px 2px 0 #f4bc08, 0px 0px 0 #f4bc08, 0px 0px 0 #f4bc08, 0px 0px 0 #f4bc08,
       0px 0px 0 #f4bc08;
@@ -52,18 +53,17 @@
     text-transform: uppercase;
     padding: 25px 0;
     font-size: 30px;
-    color: #ffffff;
+    color: #4a4a4a;
     text-align: center;
     font-family: $font-main;
   }
   &--powered {
     text-transform: uppercase;
-    color: #ffffff;
+    color: #4a4a4a;
     font-size: 20px;
     font-family: $font-main;
   }
-  &--imgContainer {
-  }
+
   &--img {
     height: 60px;
   }

@@ -10,6 +10,7 @@ import Bee from "./Bee";
 import Form from "./Form";
 import Competition from "./Competition";
 import Timeline from "./Timeline";
+import Powered from "./Powered";
 
 import Footer from "./Footer";
 
@@ -33,6 +34,7 @@ const App = () => {
           <Wilson />
           <Competition />
           <Timeline />
+          <Powered />
           <Footer />
         </Route>
       </Switch>

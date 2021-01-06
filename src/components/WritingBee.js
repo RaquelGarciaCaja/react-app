@@ -19,6 +19,7 @@ const WritingBee = () => {
         <img className="writing--img" src={boomWrite} alt="boom-write" title="boom-write" />
       </div>
       <div className="writing--page"></div>
+      <i class="writing--triangle fas fa-caret-up"></i>
     </div>
   );
 };
