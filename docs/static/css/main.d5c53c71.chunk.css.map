@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/stylesheets/App.scss"],"names":[],"mappings":"AAAA,KACE,YAAA,CACA,2BAAA,CACA,qBAAA,CACA,0BAAA","file":"main.d5c53c71.chunk.css","sourcesContent":[".app {\r\n  height: 100vh;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-position: center bottom;\r\n}\r\n"]}
