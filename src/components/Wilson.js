@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import women from "../image/women.jpg";
 import "../stylesheets/Wilson.scss";
 
@@ -19,7 +21,9 @@ const Wilson = () => {
           Camino elementary school, Camino, California USa
         </p>
       </div>
-      <h3 className="wilson--bee">Start your class writing bee</h3>
+      <Link to="/Form" className="global--link">
+        <h3 className="wilson--bee">Start your class writing bee</h3>
+      </Link>
     </section>
   );
 };

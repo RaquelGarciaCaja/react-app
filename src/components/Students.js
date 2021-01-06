@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "../stylesheets/Students.scss";
 
 const Students = () => {
@@ -49,7 +51,9 @@ const Students = () => {
           </p>
         </li>
       </ul>
-      <h3 className="students--bee">Start your class writing bee</h3>
+      <Link to="/Form" className="global--link">
+        <h3 className="students--bee">Start your class writing bee</h3>
+      </Link>
     </section>
   );
 };

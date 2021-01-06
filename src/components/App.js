@@ -7,6 +7,7 @@ import Global from "./Global";
 import Students from "./Students";
 import Wilson from "./Wilson";
 import Bee from "./Bee";
+import Form from "./Form";
 
 import "../stylesheets/App.scss";
 
@@ -17,6 +18,9 @@ const App = () => {
       <Switch>
         <Route path="/Bee">
           <Bee />
+        </Route>
+        <Route path="/Form">
+          <Form />
         </Route>
         <Route path="/">
           <WritingBee />

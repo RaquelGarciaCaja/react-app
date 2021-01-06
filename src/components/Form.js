@@ -4,10 +4,18 @@ import "../stylesheets/Form.scss";
 const Form = () => {
   return (
     <div className="writing">
-      <div className="writing--yearContainer">
-        <i className="writing--scroll fas fa-scroll"></i>
-        <p className="writing--year">The 2020</p>
-      </div>
+      <form className="writing--yearContainer">
+        <label htmlFor="">Email</label>
+        <input type="text" />
+        <label htmlFor="">First name</label>
+        <input type="text" />
+        <label htmlFor="">Last name</label>
+        <input type="text" />
+        <label htmlFor="">Password</label>
+        <input type="text" />
+        <label htmlFor="">Confirm password</label>
+        <input type="text" />
+      </form>
     </div>
   );
 };
