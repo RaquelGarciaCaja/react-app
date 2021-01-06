@@ -7,7 +7,6 @@ const WritingBee = () => {
   return (
     <div className="writing">
       <div className="writing--yearContainer">
-        {/* <img className="writing--scroll" src={scroll} alt="" /> */}
         <i className="writing--scroll fas fa-scroll"></i>
         <p className="writing--year">The 2020</p>
       </div>
