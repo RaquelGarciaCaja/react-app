@@ -1,5 +1,49 @@
 .competition {
+  background-color: #4a4a4a;
+  padding: 45px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &--competition {
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  &--p {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
   &--span {
     text-transform: capitalize;
+    color: white;
+  }
+  &--containerImg {
+    text-align: center;
+  }
+  &--img {
+    height: 130px;
+  }
+  &--list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    // list-style: none;
+  }
+  &--containerP {
+    padding: 11px 0;
+  }
+  &--title {
+    color: white;
+    padding: 10px 0;
+    font-size: 27px;
+  }
+  &--subTitle {
+    color: white;
+    line-height: 25px;
   }
 }
