@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "../stylesheets/Global.scss";
 
 const Global = () => {
@@ -12,7 +14,9 @@ const Global = () => {
         <span className="global--span">Writing Bee Finals</span> and a chance to become{" "}
         <span className="global--span">The Writing Bee Champion</span>!
       </p>
-      <h3 className="global--bee">Start your class writing bee</h3>
+      <Link to="/Form" className="writing--link">
+        <h3 className="global--bee">Start your class writing bee</h3>
+      </Link>
     </section>
   );
 };
