@@ -1,10 +1,11 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 18px;
   background-color: lightgrey;
-
+  &--fix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   &--bee {
     height: 53px;
   }
@@ -15,5 +16,25 @@
     border: 1px solid grey;
     color: grey;
     padding: 5px 15px;
+    cursor: pointer;
   }
+  &--span {
+    text-transform: capitalize;
+  }
+  &--hiddem {
+    margin-top: 12px;
+    transition: 1s;
+  }
+  &--sub {
+    padding: 8px 0;
+    list-style: none;
+  }
+  &--home {
+    padding-top: 15px;
+  }
+}
+
+.hidden {
+  display: none;
+  transition: 1s;
 }

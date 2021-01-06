@@ -2,18 +2,34 @@ import React from "react";
 import bee from "../image/bee-black.png";
 import "../stylesheets/Header.scss";
 
-const Header = () => {
-  return (
-    <header className="header">
-      <div className="header--fix">
-        <img className="header--bee" src={bee} alt="the-writing-bee" />
-        <i class="fas fa-bars header--menu js-menu"></i>
-      </div>
-      <ul className="header--hidden hidden">
-        <li wilson--span>Home</li>
-        <li wilson--span>Past writing bees</li>
-      </ul>
-    </header>
-  );
-};
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.state = {
+      isOpen: false,
+    };
+  }
+  handleClick() {
+    this.setState({
+      isOpen: !this.state.isOpen,
+    });
+  }
+
+  render() {
+    const open = this.state.isOpen ? "" : "hidden";
+    return (
+      <header className="header">
+        <div className="header--fix">
+          <img className="header--bee" src={bee} alt="the-writing-bee" />
+          <i className="fas fa-bars header--menu" onClick={this.handleClick}></i>
+        </div>
+        <ul className={`header--hidden ${open}`}>
+          <li className=" header--sub header--home ">Home</li>
+          <li className="header--sub wilson--span">Past writing bees</li>
+        </ul>
+      </header>
+    );
+  }
+}
 export default Header;
