@@ -1,0 +1,26 @@
+.global {
+  background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+  &--global {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 22px;
+  }
+  &--p {
+    text-align: center;
+    padding-bottom: 18px;
+  }
+  &--span {
+    text-transform: capitalize;
+  }
+  &--bee {
+    background-color: blue;
+    color: white;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+}
