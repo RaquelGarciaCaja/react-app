@@ -19,7 +19,9 @@ const WritingBee = () => {
         <img className="writing--img" src={boomWrite} alt="boom-write" title="boom-write" />
       </div>
       <div className="writing--page"></div>
-      <i class="writing--triangle fas fa-caret-up"></i>
+      <div className="writing--containerAge">
+        <p className="writing--age"> For students in grades 4-6 / ages 9-12</p>
+      </div>
     </div>
   );
 };

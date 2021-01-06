@@ -3,6 +3,8 @@
 .header {
   padding: 18px;
   background-color: lightgrey;
+
+  top: 0;
   &--fix {
     display: flex;
     justify-content: space-between;
@@ -34,6 +36,9 @@
   }
   &--home {
     padding-top: 15px;
+  }
+  &--link {
+    text-decoration: none;
   }
 }
 

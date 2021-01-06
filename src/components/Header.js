@@ -25,8 +25,17 @@ class Header extends React.Component {
           <i className="fas fa-bars header--menu" onClick={this.handleClick}></i>
         </div>
         <ul className={`header--hidden ${open}`}>
-          <li className=" header--sub header--home ">Home</li>
-          <li className="header--sub wilson--span">Past writing bees</li>
+          <li className=" header--sub header--home ">
+            <a className="header--link" href="#">
+              Home
+            </a>
+          </li>
+          <li className="header--sub wilson--span">
+            <a className="header--link" href="https://thewritingbee.org/past_writing_bees.html">
+              {" "}
+              Past writing bees
+            </a>
+          </li>
         </ul>
       </header>
     );
