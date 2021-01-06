@@ -13,8 +13,8 @@ const WritingBee = () => {
         </div>
         <h1 className="writing--writing">Writing Bee</h1>
       </Link>
-      <h3 className="writing--kids">Because all kids love writing stories!</h3>
-      <h4 className="writing--powered">Powered by:</h4>
+      <p className="writing--kids">Because all kids love writing stories!</p>
+      <p className="writing--powered">Powered by:</p>
       <div className="writing--imgContainer">
         <img className="writing--img" src={boomWrite} alt="boom-write" title="boom-write" />
       </div>

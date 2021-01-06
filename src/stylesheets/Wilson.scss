@@ -1,3 +1,5 @@
+@import "./reset.scss";
+
 .wilson {
   display: flex;
   flex-direction: column;
@@ -23,6 +25,8 @@
   &--name {
     color: #007bff;
     font-style: italic;
+    font-family: $font-cursive;
+    font-size: 20px;
   }
   &--span {
     text-transform: capitalize;

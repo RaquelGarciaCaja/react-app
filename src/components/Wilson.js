@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import women from "../image/women.jpg";
 import "../stylesheets/Wilson.scss";
@@ -21,9 +20,9 @@ const Wilson = () => {
           Camino elementary school, Camino, California USa
         </p>
       </div>
-      <Link to="/Form" className="global--link">
+      <a href="https://boomwriter.com/auth/teacher/signup" className="global--a" rel="noreferrer">
         <h3 className="wilson--bee">Start your class writing bee</h3>
-      </Link>
+      </a>
     </section>
   );
 };

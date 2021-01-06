@@ -28,7 +28,7 @@ const Timeline = () => {
               <h5 className="timeline--subTitle">December - March 2020 - Qualifying Sessions</h5>
               <p className="timeline--p">
                 Teachers are welcome to conduct classroom-based qualifying sessions with their
-                students in <span class="timeline--span">Grades</span> 4-6.
+                students in <span className="timeline--span">Grades</span> 4-6.
               </p>
             </div>
           </div>
@@ -44,10 +44,13 @@ const Timeline = () => {
             </div>
 
             <div className="timeline--text">
-              <h5 className="timeline--subTitle">December - March 2020 - Qualifying Sessions</h5>
+              <h5 className="timeline--subTitle">April 2020 - The Finals</h5>
               <p className="timeline--p">
-                Teachers are welcome to conduct classroom-based qualifying sessions with their
-                students in <span class="timeline--span">Grades</span> 4-6.
+                Qualifying round winners and top vote-getters compete{" "}
+                <span className="timeline--span">the writing finals.</span> All{" "}
+                <span className="timeline--span">Qualifying</span> session participants are invited
+                to read and cast votes to determine{" "}
+                <span className="timeline--span">the writing bee champion.</span>
               </p>
             </div>
           </div>

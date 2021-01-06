@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import competition from "../image/competition.png";
 import "../stylesheets/Competition.scss";
 

@@ -1,3 +1,5 @@
+@import "./reset.scss";
+
 .writing {
   background-image: url("../image/fondo.jpg");
   background-size: cover;
@@ -52,11 +54,13 @@
     font-size: 30px;
     color: #ffffff;
     text-align: center;
+    font-family: $font-main;
   }
   &--powered {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 20px;
+    font-family: $font-main;
   }
   &--imgContainer {
   }

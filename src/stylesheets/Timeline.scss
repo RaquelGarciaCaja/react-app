@@ -1,11 +1,14 @@
+@import "./reset.scss";
+
 .timeline {
   padding: 18px;
   background-color: #4a4a4a;
   &--title {
     color: white;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 18px;
+    font-family: $font-cursive;
   }
   &--section {
   }
@@ -46,7 +49,7 @@
   &--subTitle {
     border-bottom: 1px solid #ddd;
     padding: 5px;
-    font-size: 18px;
+    font-size: 20px;
   }
   &--p {
     padding: 20px 5px;

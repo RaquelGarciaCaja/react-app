@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../stylesheets/Global.scss";
 
 const Global = () => {
   return (
     <section className="global">
-      <h2 className="global--global">A global event that starts right in your classrooom!</h2>
+      <p className="global--global">A global event that starts right in your classrooom!</p>
       <p className="global--p">
         <span className="global--span"> Writing Bee Qualifying Rounds</span> take place in
         individual classrooms around the world. <span className="global--span"> Classroom</span>
@@ -13,9 +12,9 @@ const Global = () => {
         <span className="global--span">Writing Bee Finals</span> and a chance to become{" "}
         <span className="global--span">The Writing Bee Champion</span>!
       </p>
-      <Link to="/Form" className="global--link">
+      <a href="https://boomwriter.com/auth/teacher/signup" className="global--a" rel="noreferrer">
         <h3 className="global--bee">Start your class writing bee</h3>
-      </Link>
+      </a>
     </section>
   );
 };

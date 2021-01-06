@@ -1,3 +1,5 @@
+@import "./reset.scss";
+
 .header {
   padding: 18px;
   background-color: lightgrey;
@@ -28,6 +30,7 @@
   &--sub {
     padding: 8px 0;
     list-style: none;
+    font-family: $font-main;
   }
   &--home {
     padding-top: 15px;

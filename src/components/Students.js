@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import "../stylesheets/Students.scss";
 
@@ -51,9 +50,13 @@ const Students = () => {
           </p>
         </li>
       </ul>
-      <Link to="/Form" className="global--link">
+      <a
+        href="https://boomwriter.com/auth/teacher/signup"
+        className="global--link"
+        rel="noreferrer"
+      >
         <h3 className="students--bee">Start your class writing bee</h3>
-      </Link>
+      </a>
     </section>
   );
 };

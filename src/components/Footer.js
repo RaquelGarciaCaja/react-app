@@ -32,7 +32,7 @@ class Footer extends React.Component {
           </p>
           <p className="footer--visit">
             To find out more visit
-            <a href="https://boomwriter.com/" className="footer--link" target="_blank">
+            <a href="https://boomwriter.com/" className="footer--link" rel="noreferrer">
               {" "}
               www.boomwriter.com
             </a>
