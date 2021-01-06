@@ -1,42 +1,39 @@
 .footer {
-  padding: 18px;
-  background-color: lightgrey;
-  &--fix {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  &--bee {
-    height: 53px;
-  }
+  padding: 60px 18px;
+  background-color: #4a4a4a;
+
   &--containerImg {
     display: flex;
+    justify-content: space-between;
   }
-  &--menu {
-    font-size: 30px;
-    border-radius: 5px;
-    border: 1px solid grey;
-    color: grey;
-    padding: 5px 15px;
-    cursor: pointer;
+  &--img {
+    height: 80px;
+  }
+  &--boom {
+    height: 25px;
+  }
+  &--partner {
+    height: 40px;
+  }
+  &--footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+    padding-top: 12px;
   }
   &--span {
     text-transform: capitalize;
+    color: white;
   }
-  &--hiddem {
-    margin-top: 12px;
-    transition: 1s;
+  &--visit {
+    color: white;
+    text-align: center;
   }
-  &--sub {
-    padding: 8px 0;
-    list-style: none;
+  &--link {
+    color: white;
+    &:hover {
+      color: #ffc107;
+    }
   }
-  &--home {
-    padding-top: 15px;
-  }
-}
-
-.hidden {
-  display: none;
-  transition: 1s;
 }
