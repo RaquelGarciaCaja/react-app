@@ -2,6 +2,7 @@
 
 .students {
   padding: 70px 0;
+
   &--icon {
     color: $main-color;
     font-size: 60px;
@@ -12,14 +13,32 @@
     font-size: 28px;
     padding: 0 18.5px;
     margin-bottom: 25px;
+    @media all and (min-width: 768px) {
+      font-size: 40px;
+      padding: 0 90px;
+    }
+  }
+  &--list {
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      padding: 0 20px;
+    }
   }
   &--check {
     text-transform: uppercase;
     padding: 12px;
+    list-style: none;
   }
   &--containerTitle {
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    @media all and (min-width: 768px) {
+      flex-direction: column;
+    }
   }
 
   &--title {
@@ -32,6 +51,9 @@
     text-transform: none;
     padding-top: 10px;
     line-height: 22px;
+    @media all and (min-width: 768px) {
+      text-align: center;
+    }
   }
   &--span {
     text-transform: capitalize;
@@ -45,5 +67,12 @@
     margin: 35px 20px;
     padding: 15px 70px;
     height: 60px;
+    @media all and (min-width: 768px) {
+      padding: 0 35px;
+      display: flex;
+      align-items: center;
+      margin: 35px 190px;
+      text-align: center;
+    }
   }
 }

@@ -5,12 +5,20 @@
   flex-direction: column;
   align-items: center;
   padding: 8px 15px;
+  @media all and (min-width: 768px) {
+    padding: 80px 0;
+  }
   &--container {
     background-color: #f8f9fa;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media all and (min-width: 768px) {
+      margin: 10px 130px;
+      display: flex;
+      align-items: center;
+    }
   }
 
   &--img {
@@ -21,12 +29,18 @@
   &--p {
     text-align: center;
     padding: 0 15px 18px;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
   }
   &--name {
     color: #007bff;
     font-style: italic;
     font-family: $font-cursive;
     font-size: 20px;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
   }
   &--span {
     text-transform: capitalize;
@@ -35,6 +49,10 @@
     padding: 12px 35px 18px;
     text-align: center;
     line-height: 22px;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      padding: 12px 10px;
+    }
   }
   &--bee {
     background-color: #007bff;
@@ -45,5 +63,10 @@
     margin-top: 20px;
     padding: 15px 70px;
     height: 60px;
+    @media all and (min-width: 768px) {
+      padding: 0 35px;
+      display: flex;
+      align-items: center;
+    }
   }
 }

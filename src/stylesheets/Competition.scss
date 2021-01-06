@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   &--competition {
     color: white;
     text-align: center;
@@ -20,6 +21,9 @@
     line-height: 30px;
     font-size: 20px;
     margin-bottom: 18px;
+    @media all and (min-width: 768px) {
+      padding: 0 90px;
+    }
   }
   &--span {
     text-transform: capitalize;
@@ -30,15 +34,25 @@
   }
   &--img {
     height: 130px;
+    @media all and (min-width: 768px) {
+      height: 220px;
+    }
   }
   &--list {
     display: flex;
     flex-direction: column;
     text-align: center;
-    // list-style: none;
+    @media all and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 15px;
+    }
   }
   &--containerP {
     padding: 11px 0;
+    @media all and (min-width: 768px) {
+      padding: 0 10px;
+    }
   }
   &--title {
     color: white;

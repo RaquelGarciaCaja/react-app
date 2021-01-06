@@ -4,9 +4,12 @@
   padding: 18px;
   background-color: lightgrey;
   position: sticky;
-  width: 100%;
+  width: 90%;
   z-index: 999;
   top: 0;
+  @media all and (min-width: 768px) {
+    width: 95%;
+  }
   &--fix {
     display: flex;
     justify-content: space-between;
@@ -23,7 +26,6 @@
     color: grey;
     padding: 5px 15px;
     cursor: pointer;
-    margin-right: 33px;
   }
   &--span {
     text-transform: capitalize;

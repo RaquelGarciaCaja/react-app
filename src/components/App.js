@@ -7,7 +7,6 @@ import Global from "./Global";
 import Students from "./Students";
 import Wilson from "./Wilson";
 import Bee from "./Bee";
-import Form from "./Form";
 import Competition from "./Competition";
 import Timeline from "./Timeline";
 import Powered from "./Powered";
@@ -24,17 +23,15 @@ const App = () => {
         <Route path="/Bee">
           <Bee />
         </Route>
-        <Route path="/Form">
-          <Form />
-        </Route>
+
         <Route path="/">
           <WritingBee />
           <Global />
           <Students />
           <Wilson />
           <Competition />
-          <Timeline />
           <Powered />
+          <Timeline />
           <Footer />
         </Route>
       </Switch>

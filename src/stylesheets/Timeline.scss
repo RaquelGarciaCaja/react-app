@@ -3,6 +3,7 @@
 .timeline {
   padding: 18px;
   background-color: #4a4a4a;
+
   &--title {
     color: white;
     text-align: center;
@@ -11,6 +12,9 @@
     font-family: $font-cursive;
   }
   &--section {
+    @media all and (min-width: 768px) {
+      padding: 15px 190px;
+    }
   }
   &--list {
     list-style: none;
