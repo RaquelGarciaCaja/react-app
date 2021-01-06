@@ -3,6 +3,7 @@ import Header from "./Header";
 import WritingBee from "./WritingBee";
 import Global from "./Global";
 import Students from "./Students";
+import Wilson from "./Wilson";
 
 import "../stylesheets/App.scss";
 
@@ -13,6 +14,7 @@ const App = () => {
       <WritingBee />
       <Global />
       <Students />
+      <Wilson />
     </section>
   );
 };

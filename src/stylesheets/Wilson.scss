@@ -1,26 +1,45 @@
-.global {
-  background-color: chocolate;
+.wilson {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 90px;
-  &--global {
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 22px;
+  padding: 8px 15px;
+  &--container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &--img {
+    height: 100px;
+    width: 100px;
+    transform: translate(10px, -50px);
   }
   &--p {
     text-align: center;
-    padding-bottom: 18px;
+    padding: 0 15px 18px;
+  }
+  &--name {
+    color: #007bff;
+    font-style: italic;
   }
   &--span {
     text-transform: capitalize;
   }
+  &--city {
+    padding: 12px 35px 18px;
+    text-align: center;
+    line-height: 22px;
+  }
   &--bee {
-    background-color: blue;
+    background-color: #007bff;
     color: white;
-    padding: 15px 40px;
     text-transform: uppercase;
     border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 70px;
+    height: 60px;
   }
 }

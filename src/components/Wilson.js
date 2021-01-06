@@ -1,18 +1,25 @@
 import React from "react";
+import women from "../image/women.jpg";
 import "../stylesheets/Wilson.scss";
 
 const Wilson = () => {
   return (
-    <section className="global">
-      <h2 className="global--global">A global event that starts right in your classrooom!</h2>
-      <p className="global--p">
-        <span className="global--span"> Writing Bee Qualifying Rounds</span> take place in
-        individual classrooms around the world. <span className="global--span"> Classroom</span>
-        -based winners and top vote-getters qualify for the{" "}
-        <span className="global--span">Writing Bee Finals</span> and a chance to become{" "}
-        <span className="global--span">The Writing Bee Champion</span>!
-      </p>
-      <h3 className="global--bee">Start your class writing bee</h3>
+    <section className="wilson">
+      <div className="wilson--container">
+        <img className="wilson--img" src={women} alt="women" title="women" />
+        <p className="wilson--p">
+          The Writing Bee was the most valuable writing experience I have had with my class in many
+          years. My students were fully engaged - they collaborated, edited, imagined, improved, and
+          happily worked for many hours on their chapter writing. My students improved their writing
+          skills and also learned that they love writing. Invaluable lessons. Thank you,{" "}
+          <span className="wilson--span">boomWriter</span>!
+        </p>
+        <h4 className="wilson--name">D. Wilson</h4>
+        <p className="wilson--span wilson--city">
+          Camino elementary school, Camino, California USa
+        </p>
+      </div>
+      <h3 className="wilson--bee">Start your class writing bee</h3>
     </section>
   );
 };
