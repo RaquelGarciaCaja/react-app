@@ -8,6 +8,7 @@ import Students from "./Students";
 import Wilson from "./Wilson";
 import Bee from "./Bee";
 import Form from "./Form";
+import Competition from "./Competition";
 
 import "../stylesheets/App.scss";
 
@@ -27,6 +28,7 @@ const App = () => {
           <Global />
           <Students />
           <Wilson />
+          <Competition />
         </Route>
       </Switch>
     </section>
